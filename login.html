@@ -4,10 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Online Food delivery Application - Delivering Delicious Meals to Your Doorstep</title>
+    <title>Login | Delicious Recipes</title>
     <link rel="stylesheet" href="./style.css">
-    <link rel="icon" href="./images/favicon.ico">
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 
@@ -21,25 +19,64 @@
             <input type="search" placeholder="Search for food, restaurants..." class="searchInput">
         </div>
         <ul class="linkcnt" type="none">
-            <li class="navLink"><a href="index.html">Home</a></li>
-            <li class="navLink"><a href="about.html">About Us</a></li>
-            <li class="navLink"><a href="login.html">Login</a></li>
-            <li class="navLink"><a href="contact.html">Contact Us</a></li>
+            <li class="navLink">
+                <a href="index.html">Home</a>
+            </li>
+            <li class="navLink">
+                <a href="about.html">About Us</a>
+            </li>
+            <li class="navLink">
+                <a href="login.html">Login</a>
+            </li>
+            <li class="navLink">
+                <a href="contact.html">Contact Us</a>
+            </li>
         </ul>
     </header>
-    <!-- banner section -->
-    <div class="bannercnt">
-        <p class="bannertext">Delivering Delicious Meals to Your Doorstep</p>
+    <!-- Login Section -->
+    <div class="login-container">
 
-        <p class="bannertext2">
-            Order from your favorite restaurants and enjoy a hassle-free dining
-            experience with fast delivery and fresh, delicious meals.
-        </p>
+        <div class="login-left">
+            <h1>Welcome Back!</h1>
 
-        <div class="btnGroup">
-            <button class="bannerbtn">Order Now</button>
-            <button class="bannerbtn">View Menu</button>
+            <p>
+                Login to order your favorite meals, track your orders,
+                and enjoy delicious food delivered to your doorstep.
+            </p>
+
+            <img src="./images/login-food.png" alt="Food">
         </div>
+
+        <div class="login-right">
+
+            <form class="login-form">
+
+                <h2>Login</h2>
+
+                <input type="email" placeholder="Email Address" required>
+
+                <input type="password" placeholder="Password" required>
+
+                <div class="remember">
+                    <label>
+                        <input type="checkbox">
+                        Remember Me
+                    </label>
+
+                    <a href="#">Forgot Password?</a>
+                </div>
+
+                <button type="submit">Login</button>
+
+                <p class="signup">
+                    Don't have an account?
+                    <a href="#">Register</a>
+                </p>
+
+            </form>
+
+        </div>
+
     </div>
     <!-- footer section -->
     <footer class="footer">
