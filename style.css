@@ -481,7 +481,7 @@
 }
 
 .menucnt {
-    height: 450px;
+    height: 650px;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -517,5 +517,9 @@
 .product-details{
     display: flex;
     justify-content: space-between;
-    margin-top: 10px;
+    margin: 10px 0px;
+}
+
+.product-line {
+    margin: 15px 0px;
 }
